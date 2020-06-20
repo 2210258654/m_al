@@ -1,0 +1,41 @@
+/* banner */
+.banner {
+    width: 100%;
+    /* background-color: blue; */
+    padding-top: 50px;
+}
+.banner form {
+    width: 100%;
+}
+.banner form div {
+    width: 100%;
+    /* height: 50px; */
+    padding: 0px 12px 0px 12px;
+    margin-top: 38px;
+}
+.banner form div p {
+    width: 100%;
+    /* background-color: blueviolet; */
+    font-weight: 700;
+    font-family: 黑体;
+    /* height: 20px; */
+}
+.banner form div input {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid rgb(196, 190, 190);
+    background-color: #e9e9e9;
+}
+.banner form div:last-child {
+    width: 100%;
+    height: 40px;
+}
+.banner form div:last-child input {
+    border-bottom: none;
+    background-color:  #64f6cf;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 6px 16px #64f6cf;
+    color: #fff;
+    font-size: 16px;
+}

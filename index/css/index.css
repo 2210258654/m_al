@@ -1,0 +1,111 @@
+
+/* 图片 */
+.xy_banner {
+    width: 100%;
+    padding-top: 15px;
+}
+.xy_banner img {
+    width: 100%;
+    display: block;
+}
+/* 索搜 */
+.xy_search {
+    width: 100%;
+    height: 40px;
+    /* background-color: red; */
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+.xy_search form {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #f3f3f3;
+    position: relative;
+}
+.xy_search form input {
+    width: 100%;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    color: #9e9e9e;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #f3f3f3;
+    padding-right: 30px;
+}
+.xy_search form i {
+    font-family: 'icomoon';
+    font-style: normal;
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    /* background-color: sandybrown; */
+    line-height: 30px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;  /* 经过显示小手 */
+}
+/* 导航栏 */
+.xy_nav {
+    width: 100%;
+    background-color: #fff;
+    padding-bottom: 68px;
+}
+.xy_nav ul {
+    width: 100%;
+    height: 310px;
+    padding-top: 10px;
+    /* padding-bottom: 30px; */
+    /* margin-bottom: 20px; */
+}
+.xy_nav ul li {
+    width: 33.333%;
+    float: left;
+    padding-top: 20px;
+}
+.xt_nav ul li a{
+    width: 100%;
+    display: block;
+}
+.xy_nav ul li a div {
+    width: 88px;
+    height: 88px;
+    margin: 0 auto;
+    position: relative;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    overflow: hidden;
+}
+.xy_nav ul li a div img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.xy_nav ul li a p {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.xy_nav ul li:last-child div{
+    background-color: #64f6cf;
+    position: relative;
+}
+.xy_nav ul li:last-child div i {
+    font-family: 'icomoon';
+    font-style: normal;
+    color: #fff;
+    font-size: 68px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}

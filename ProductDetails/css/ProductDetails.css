@@ -1,0 +1,58 @@
+/* 信息模块 */
+.banner {
+    width: 100%;
+    padding-top: 50px;
+    /* min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    position: fixed; */
+    /* background-color: blue; */
+}
+.banner div {
+    width: 100%;
+    /* width: 200px; */
+    /* height: 300px;   */
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    
+    /* background-size: cover; */  /* 超出，直到铺满整个背景 */
+    /* background-size: contain; */  /* 会自动调整缩放比例 */
+    
+}
+.banner div img {
+    width: 100%;
+    display: block;
+}
+.banner div:first-child {
+    width: 100%;
+    /* margin-top: 18px; */
+    background-color: #fff;
+    /* background-color: #e9e9e9; */
+    /* padding-bottom: 3px; */
+    /* margin-bottom: 39px; */
+    /* margin-top: 10px; */
+}
+.banner div:first-child dl {
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(167, 158, 158);
+}
+.banner div:first-child dl:last-child {
+    border-bottom: none;
+}
+.banner div:first-child dl dt {
+    font-size: 18px;
+    font-weight: 700;
+    float: left;
+}
+.banner div:first-child dl dd {
+    /* width: 100%; */
+    /* float: left; */
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

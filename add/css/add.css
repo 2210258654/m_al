@@ -1,0 +1,232 @@
+/* 信息部分 */
+.xy_banner {
+    width: 100%;
+    /* position: fixed; */
+    /* left: 0;
+    right: 0;
+    margin: 0 auto; */
+    min-width: 320px;
+    max-width: 640px;
+    padding-top: 50px ;
+    padding-bottom: 70px;
+    /* margin-top: 70px; */
+    background-color: #fff;
+}
+.xy_banner form {
+    width: 100%;
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 640px;
+    /* overflow: hidden; */
+    /* padding: 0 20px 0 30px; */
+}
+.xy_banner form dl {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+}
+.xy_banner form dl dt {
+    float: left;
+    font-size: 20px;
+    margin-left: 30px;
+    position: relative;
+}
+.xy_banner form dl dd {
+    /* width: 300px; */
+    /* width: 70%; */
+    width: 70%;
+    height: 50px;
+    /* overflow: hidden; */
+    /* background-color: darkgreen; */
+    line-height: 50px;
+    margin-left: 100px;
+    /* padding-right: 100px; */
+      /* padding-left: 50px; */
+    /* float: left; */
+    /* width: 300px; */
+    position: relative;
+}
+.xy_banner form dl dd input {
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+    padding-right: 30px;
+    /* padding-left: 20px; */
+    /* background-color: crimson; */
+    /* width: 500px; */
+}
+.xy_banner form dl:nth-child(4) dd {
+    margin-left: 125px;
+}
+.xy_banner form dl:nth-child(4) dd input {
+    padding-left: 10px;
+    /* padding-right: 99px; */
+    /* margin-left: 20px; */
+}
+.xy_banner form dl:nth-child(5) {
+    position: relative;
+}
+.xy_banner form dl:nth-child(5) dd {
+    /* background-color: crimson; */
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: 9px;
+    left: 36px;
+}
+.xy_banner form dl:nth-child(5) dd span {
+    width: 20px;
+    height: 20px;
+    background-color: #49ebc0;
+    /* float: left; */
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    
+}
+.xy_banner form dl:nth-child(5) dd p {
+    font-size: 20px;
+    /* float: left; */
+    position: absolute;
+    left: 25px;
+    top: 0px;
+    color: #f10215;
+    display: block;
+}
+.xy_banner form dl:nth-child(6) {
+    height: 100px;
+    width: 100%;
+    /* background-color: rgb(240, 28, 28); */
+    position: relative;
+} 
+.xy_banner form dl:nth-child(6) dd {
+    padding-left: 124px;
+    width: 100%;
+    height: 100%;
+    /* background-color: darkgoldenrod; */
+    min-width: 320px;
+    max-width: 640px;
+    /* margin-left: 100px; */
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    /* padding: 0px; */
+}
+.xy_banner form dl:nth-child(6) dt {
+    width: 100px;
+    height: 50px;
+    top: 25px;
+}
+.xy_banner form dl:nth-child(6) dd textarea {
+    padding-left: 100px;
+    padding-right: 10px;
+    width: 100%;
+    height: 100%;
+    /* text-align: center; */
+    font-size: 18px;
+    padding-top: 8px;
+    padding-left: 10px;
+    background-color: #fff;
+}
+/* .xy_banner form dl dd a {
+    display: block;
+    background-color: #49ebc0;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    position: absolute;
+    top: 9px;
+    right: 30px;
+    color: #fff;
+} */
+.xy_banner form dl:nth-child(2) dd input {
+    /* width: 168px; */
+    width: 100px;
+    padding-right: 0px;
+    /* background-color: darkgoldenrod; */
+}
+.xy_banner form dl:nth-child(2) dd {
+    position: relative;
+}
+.xy_banner form dl dd select {
+    display: block;
+    background-color: #49ebc0;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    position: absolute;
+    top: 9px;
+    right: 3px;
+    color: #fff;
+}
+.xy_banner dl {
+    border-bottom: 1px solid #f4f5f7;
+}
+.xy_banner dl dt::before {
+    content: "*";
+    display: block;
+    /* background-color: brown; */
+    color: #f10215;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 30px;
+    position: absolute;
+    top: 12px;
+    left: -18px;
+}
+.xy_banner .xy_shangchuan {
+    width: 100%;
+    height: 220px;
+    /* height: 100%; */
+    /* background-color: darkkhaki; */
+    position: relative;
+}
+.xy_banner .xy_shangchuan p{
+    font-size: 20px;
+    height: 30px;
+    width: 200px;
+    line-height: 30px;
+    text-align: center;
+    color: #dadada;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+.xy_banner .xy_shangchuan .xy_tupian {
+    background-color: #f7f8fa;
+    width: 180px;
+    height: 80px;
+    position: absolute;
+    left: 20px;
+    top: 60px;
+    /* line-height: 80px; */
+    /* text-align: center; */
+}
+.xy_banner .xy_shangchuan span {
+    display: block;
+    width: 100%;
+    height: 50px;
+    /* background-color: darkturquoise; */
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.xy_banner .xy_shangchuan span input {
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    font-size: 25px;
+    background-color: #49ebc0;
+}

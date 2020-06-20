@@ -1,0 +1,278 @@
+/* 顶部部分 */
+
+.container header {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    z-index: 999;
+    /* background-color: blue; */
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.container .release {
+    width: 100%;
+    height: 50px;
+    background-color: #64f6cf;
+    /* line-height: 40px; */
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+    font-size: 18px;
+    padding-left: 10px;
+    position: relative;
+    /* font-weight: 700; */
+}
+
+.container .release a {
+    float: left;
+    display: block;
+    width: 200px;
+    height: 30px;
+    /* background-color: blueviolet; */
+    line-height: 30px;
+    position: absolute;
+    bottom: 7px;
+    font-family: 黑体;
+    font-weight: 700;
+}
+
+.container .release p {
+    float: left;
+    font-size: 21px;
+    margin-right: 8px;
+    color: rgb(126, 121, 121);
+}
+
+
+/* banner  */
+
+.banner {
+    width: 100%;
+    padding-top: 60px;
+    position: fixed;
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+    /* background-color: pink; */
+}
+
+.banner ul {
+    margin-top: 30px;
+}
+
+.banner li {
+    width: 100%;
+    height: 48px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    line-height: 48px;
+}
+
+.banner ul li:last-child {
+    border-bottom: none;
+}
+
+.banner li a {
+    width: 100%;
+    display: block;
+    height: 48px;
+    position: relative;
+}
+
+.banner li p {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 仿宋;
+    position: absolute;
+    left: 20px;
+}
+
+.banner li span {
+    position: absolute;
+    right: 20px;
+}
+
+.banner #lis h2 {
+    /* width: 50px; */
+    /* background-color: #64f6cf; */
+    position: absolute;
+    right: 50px;
+    height: 100%;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(158, 149, 149);
+    font-size: 18px;
+}
+
+.banner li a span {
+    position: absolute;
+    right: 20px;
+}
+
+.banner ul li:nth-child(1) a div {
+    width: 40px;
+    height: 40px;
+    background-color: pink;
+    position: absolute;
+    right: 50px;
+    top: 4px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.banner ul li:nth-child(1) a div img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.name a h3 {
+    right: 50px;
+    position: absolute;
+    color: rgb(160, 156, 156);
+    font-weight: 400;
+}
+
+/* 点击头像模块 */
+.dis {
+    width: 100vw;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+.dis .aa {
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+}
+
+.dis .aa form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dis .aa form div:nth-child(1) {
+    background-color: #fff;
+    width: 70%;
+    height: 50%;
+    border-radius: 10px;
+    border: 1px solid #64f6cf;
+    background-color: #fff;
+    padding-top: 18px;
+    position: relative;
+}
+
+.dis .aa form div:nth-child(1) i {
+    font-family: 'icomoon';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dis .aa form div:nth-child(1) a {
+    width: 120px;
+    height: 120px;
+    background-color: #fff;
+    display: block;
+    /* margin-left: 23%;
+    margin-bottom: 18px; */
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 8%);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.dis .aa form div:nth-child(1) a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#file {
+    position: absolute;
+    top: 158px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    /* left: 128px; */
+}
+
+#file input {
+    width: 80%;
+}
+
+#button {
+    position: absolute;
+    top: 210px;
+    width: 100%;
+    /* background-color: #64f6cf; */
+    text-align: center;
+}
+
+#button input {
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    font-family: 黑体;
+    font-size: 15px;
+}
+
+/* 查看头像模块 */
+.see {
+    width: 100vw;
+    height: 100%;
+    background-color: #000;
+    position: fixed;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    /* padding-top: 180px; */
+    display: none;
+}
+
+.see div {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.see div>span {
+    width: 100%;
+    height: 50%;
+    background-color: #fff;
+}
+
+.current {
+    width: 100%;
+    height: 100%;
+    display: block;
+}

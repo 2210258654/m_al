@@ -1,0 +1,208 @@
+/* 顶部部分 */
+.container header {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    z-index: 999;
+    /* background-color: blue; */
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+.container .list {
+    width: 100%;
+    height: 50px;
+    background-color: #64f6cf;
+    /* line-height: 40px; */
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+    font-size: 18px;
+    padding-left: 10px;
+    position: relative;
+    /* font-weight: 700; */
+}
+.container .list a {
+    float: left;
+    display: block;
+    width: 200px;
+    height: 30px;
+    /* background-color: blueviolet; */
+    line-height: 30px;
+    position: absolute;
+    bottom: 8px;
+    font-family: 黑体;
+    /* font-weight: 700; */
+    color: #fff;
+    text-shadow: 1px 2px 3px rgba(0,0,0,0.5);
+}
+.container .list p {
+    float: left;
+    font-size: 21px;
+    margin-right: 8px;
+    color: rgb(126, 121, 121);
+}
+/* 信息模块*/
+.container .banner {
+    padding-top: 50px;
+    width: 100%;
+    background-color: #fff;
+}
+/* 搜溹框 */
+.container .banner .search1 {
+    width: 100%;
+    padding: 10px 20px 0 20px;
+    /* background-color: #ccc; */
+    position: relative;
+}
+.container .banner .search1 input {
+    width: 100%;
+    height: 30px;
+    background-color: #e2e2e2;
+    padding-left: 40px;
+    border-radius: 20px;
+}
+.container .banner .search1::before {
+    content: "\e986";
+    width: 30px;
+    height: 30px;
+    display: block;
+    /* background-color: blue; */
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    font-family: 'icomoon';
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+/* 排序 */
+.banner .defaultSort {
+    width: 100%;
+    height: 60px;
+    /* background-color: blueviolet; */
+    line-height: 60px;
+    /* text-align: center; */
+    position: relative;
+    margin-bottom: 10px;
+}
+.banner .defaultSort select {
+    height: 30px;
+    font-size: 18px;
+    border: none;
+}
+.banner .defaultSort select:nth-child(1) {
+    position: absolute;
+    left: 50px;
+    top: 15px;
+}
+.banner .defaultSort select:nth-child(2) {
+    position: absolute;
+    right: 50px;
+    top: 15px;
+}
+/* 商品 */
+.banner .shop {
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+}
+.banner .shop .bors{
+    border-top: 1px solid rgba(0,0,0,0.1);
+    padding-top: 3px;
+}
+.banner .shop .shangPing {
+    width: 100%;
+    /* background-color: burlywood; */
+}
+.banner .shop .shangPing a {
+    width: 100%;
+    display: block;
+    position: relative;
+    padding-left: 10px;
+    overflow: hidden;
+}
+.banner .shop .shangPing a div:nth-child(1) {
+    width: 80px;
+    height: 80px;
+    /* background-color: darkblue; */
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+    padding: 5px;
+    /* position: absolute;
+    left: 10px; */
+}
+.banner .shop .shangPing a div:nth-child(1) img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    display: block;
+}
+.banner .shop .shangPing a div:nth-child(2) {
+    width: 84%;
+    height: 80px;
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    padding-top: 8px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    /* box-shadow: 0 2px 5px rgba(0,0,0,0.2); */
+}
+.banner .shop .shangPing a div:nth-child(2) h3::before {
+    content: "校园闲置";
+    background-color: #64f6cf;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 2px 3px 2px 3px;
+    color: rgba(255,255,255,0.8);
+    margin-right: 10px;
+    font-family: 黑体;
+    /* text-shadow: 0 3px 3px rgba(255,255,255,0.8); */
+}
+.banner .shop .shangPing a div:nth-child(2) h3 {
+    font-weight: 400;
+    font-size: 15px;
+    /* width: 230px; */
+    width: 84%;
+    white-space: nowrap; /* 文字一行显示，不换行 */
+    overflow: hidden;
+    text-overflow: ellipsis; /* 超出的部分以省略号显示 */
+}
+.banner .shop .shangPing a div:nth-child(2) p {
+    color: #f10215;
+    margin: 2px 0 2px 0;
+    font-size: 12px;
+}
+.banner .shop .shangPing a div:nth-child(2) p em {
+    font-style: normal;
+    font-size: 18px;
+}
+.banner .shop .shangPing a div:nth-child(2) div {
+    width: 70px;
+    height: 20px;
+    line-height: 20px;
+    /* background-color: darkcyan; */
+    position: relative;
+    color: rgb(143, 136, 136);
+    font-size: 12px;
+    
+}
+.banner .shop .shangPing a div:nth-child(2) div span {
+    position: absolute;
+    left: 0px;
+}
+.banner .shop .shangPing a div:nth-child(2) div i {
+    position: absolute;
+    right: 0px;
+    font-style: normal;
+    font-size: 13px;
+}
+.banner .shop div:last-child div:last-child {
+    border-bottom: none;
+}
+.banner .shop .lastChild {
+    padding-bottom: 3px;
+}

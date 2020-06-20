@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--  device-width        当前设备的宽度 -->
+    <!--  initial-scale=1.0   宽度一致比例是1.0 -->
+    <!--  user-scalable=no    //  不允许缩放 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=0">
+    <title>校园闲置物品交易网</title>
+    <link rel="stylesheet" href="css/add.css">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+
+<body>
+    <!-- 版心 -->
+    <div class="container">
+        <!-- 顶部部分 -->
+        <header class="xy_biaoti">
+            <div class="xy_biaoti_title">
+                <h1>发布物品</h1>
+            </div>
+        </header>
+        <!-- 信息部分 -->
+        <div class="xy_banner">
+            <form action="#">
+                <dl class="clearFix">
+                    <dt class="">标题</dt>
+                    <dd>
+                        <input type="text" placeholder="请输入物品名称" autofocus="" required name="title">
+                    </dd>
+                </dl>
+                <dl class="clearFix">
+                    <dt>类别</dt>
+                    <dd>
+                        <input type="text" placeholder="类别" required name="category">
+                        <!-- <a href="#">选择分类</a> -->
+                        <select name="">
+                            <option value="">选择分类</option>
+                            <option value="">学习用品</option>
+                            <option value="">数码产品</option>
+                            <option value="">服装穿着</option>
+                            <option value="">体育用品</option>
+                            <option value="">游戏代练</option>
+                        </select>
+                    </dd>
+                </dl>
+                <dl class="clearFix">
+                    <dt>价格</dt>
+                    <dd>
+                        <input type="text" placeholder="单价/元" required name="price">
+                    </dd>
+                </dl>
+                <dl class="clearFix">
+                    <dt>联系方式</dt>
+                    <dd>
+                        <input type="tel" placeholder="请输入联系方式" maxlength="11" required name="contact">
+                    </dd>
+                </dl>
+                <dl class="clearFix">
+                    <dt>交易方式</dt>
+                    <dd>
+                        <span></span>
+                        <p>线下交易</p>
+                    </dd>
+                </dl>
+                <dl class="clearFix">
+                    <dt>物品介绍</dt>
+                    <dd>
+                        <textarea name="wpjs" id="" cols="30" rows="10" placeholder="请介绍您的物品"></textarea>
+                    </dd>
+                </dl>
+                <div class="xy_shangchuan">
+                    <p>最多可上传4张图片</p>
+                    <!-- <input class="xy_tupian" type="file" name="" id=" " multiple> -->
+                    <input class="xy_tupian" type="file" id=" " multiple="">
+                    <span>
+                        <input type="submit" value="发布">
+                    </span>
+                </div>
+            </form>
+        </div>
+        <!-- 底部部分 -->
+        <footer class="xy_shoye">
+            <div>
+                <ul class="clearFix">
+                    <li>
+                        <a href="../index/index.html">
+                            <div class="xy_shoye_wode">
+                                <i></i>
+                                <p>首页</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div class="xy_shoye_wode xy_tianjia">
+                                <i></i>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../my/my.html">
+                            <div class="xy_shoye_wode">
+                                <i></i>
+                                <p>我的</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+
+    </div>
+
+    <script src="js/common.js"></script>
+    <script src="js/add.js"></script>
+</body>
