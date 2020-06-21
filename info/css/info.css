@@ -239,6 +239,8 @@
     cursor: pointer;
     font-family: 黑体;
     font-size: 15px;
+    tap-highlight-color: #ccc;
+    -webkit-tap-highlight-color: #ccc;
 }
 
 /* 查看头像模块 */

@@ -24,15 +24,35 @@
         <div class="banner">
             <form action="">
                 <ul>
-                    <li><input type="text" placeholder="请设置密保问题" maxlength="20"></li>
-                    <li><input type="text" placeholder="请设置密保答案"></li>
+                    <li>
+                        <select name="" id="ss">
+                            <option value="" id="op1">请您设置密保问题</option>
+                            <option value="">我的名字</option>
+                            <option value="">我的手机号码</option>
+                            <option value="">我的生日</option>
+                        </select>
+                    </li>
+                    <li><input id="da" type="text" placeholder="请您设置密保答案" required></li>
                 </ul>
                 <div>
-                    <a href="">完成</a>
+                    <a href="JavaScript:;" id="complete">完成</a>
                 </div>
             </form>
         </div>
+
     </div>
+    <script src="js/commit.js"></script>
+    <script>
+        my$("complete").onclick = function () {
+            var op1 = document.querySelector("#op1")
+            var da = document.querySelector("#da")
+            if (op1.selected == true) {
+                alert("您未选择密保问题，请选择");
+            } else if (da.value == 0) {
+                alert("请填写密保答案")
+            }
+        }
+    </script>
 </body>
 
 </html>

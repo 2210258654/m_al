@@ -2,6 +2,12 @@
 .banner {
     width: 100%;
     padding-top: 50px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
     /* background-color: blue; */
 }
 
@@ -22,19 +28,28 @@
     height: 40px;
     border-bottom: 1px solid rgb(196, 190, 190);
     background-color: #e9e9e9;
+    padding-left: 4px;
 }
 
-label {
+/* label {
     font-size: 1em;
     font-weight: 700;
     font-family: 宋体;
 
-}
+} */
 
-#problem {
-    /* background-color: #075c44; */
+/* #problem {
+    background-color: #075c44;
     border: none;
     width: 70%;
+} */
+.banner form div select {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    /* border-radius: 10px; */
+    border: none;
+    background-color: #e9e9e9;
 }
 
 .banner form div input .banner form div p {

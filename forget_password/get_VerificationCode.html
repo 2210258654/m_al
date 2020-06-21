@@ -25,16 +25,47 @@
         <div class="banner">
             <form action="">
                 <div>
-                    <label for="suibian">问题：</label>
-                    <input type="text" value="我的生日是啥" id="problem" disabled>
-                    <input type="text" placeholder="请输入密保答案" required id="suibian">
+                    <select name="" id="ss">
+                        <option value="" id="op1">请您设置密保问题:</option>
+                        <option value="">我的名字</option>
+                        <option value="">我的手机号码</option>
+                        <option value="">我的生日</option>
+                    </select>
+                    <input id="da" type="text" placeholder="请输入密保答案" required>
                 </div>
                 <div>
-                    <a href="set_loginGassword.html">下一步</a>
+                    <a href="set_loginGassword.html" id="complete">下一步</a>
                 </div>
             </form>
         </div>
     </div>
+    <script src="js/common.js"></script>
+    <script>
+        var op1 = document.querySelector("#op1")
+        var da = document.querySelector("#da")
+
+        // function f1() {
+        //     if (op1.selected == true) {
+        //         alert("您未选择密保问题，请选择");
+        //         this.href = "JaveScript:;"
+        //         // continue
+        //     }
+        // }
+
+        function f2() {
+            if (op1.selected == true) {
+                alert("您未选择密保问题，请选择");
+                this.href = "JaveScript:;"
+            } else if (op1.selected !== true && da.value == 0) {
+                alert("请输入密保答案");
+                this.href = "JaveScript:;"
+            } else if (op1.selected !== true && da.value !== 0) {
+                this.href = "set_loginGassword.html"
+            }
+        }
+        // my$("complete").addEventListener("click", f1, false);
+        my$("complete").addEventListener("click", f2, false);
+    </script>
 </body>
 
 </html>
