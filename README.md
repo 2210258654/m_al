@@ -2,7 +2,7 @@
 
 ## 查看效果
 
- [点击预览](https://2210258654.github.io/m_al/info/info.html)
+ [点击预览](https://LiangJinJun.github.io/m_al/info/info.html)
  
 ## 介绍
 
@@ -10,5 +10,5 @@
 
     
    > 作者：梁金俊
-   > 微信：17875534197
-   > 手机：17875534197
+   微信：17875534197
+   手机：17875534197
